@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PMempleados.master.cs" Inherits="ProyectoFinal.PMempleados" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 314px;
+        }
+    </style>
+</head>
+<body bgcolor="#99ccff">
+    <form id="form1" runat="server">
+    <div>
+        <table style="width: 100%;">
+            <tr>
+                <td class="style1">
+                    <asp:LinkButton ID="lnkMenuPrincipal" runat="server" 
+                        PostBackUrl="~/Default.aspx">Volver a la Pagina Principal (desloguearse)</asp:LinkButton>
+                </td>
+                <td>
+                    <asp:LinkButton ID="lnkABMPaises" runat="server" PostBackUrl="~/ABMPaises.aspx">ABM Paises</asp:LinkButton>
+                </td>
+                <td>
+                    <asp:LinkButton ID="LnkABMCiudades" runat="server" 
+                        PostBackUrl="~/ABMCiudades.aspx">ABM Ciudades</asp:LinkButton>
+                </td>
+                <td>
+                    <asp:LinkButton ID="lnkABMUsuarios" runat="server" 
+                        PostBackUrl="~/ABMUsuarios.aspx">ABM Usuarios</asp:LinkButton>
+                </td>
+                <td>
+                    <asp:LinkButton ID="lnkRegistrarPronostico" runat="server" 
+                        PostBackUrl="~/RegistrarPronostico.aspx"> Registrar Pronostico</asp:LinkButton>
+                </td>
+                <td>
+                    <asp:LinkButton ID="lnkPronosticosporCiudad" runat="server" 
+                        PostBackUrl="~/PronosticoPorCiudad.aspx">Pronosticos por Ciudad</asp:LinkButton>
+                </td>
+                <td>
+                    <asp:LinkButton ID="lnkPronosticosporDia" runat="server" 
+                        PostBackUrl="~/PronosticoPorDia.aspx">Pronosticos por Dia</asp:LinkButton>
+                </td>
+            </tr>
+            <tr>
+                <td class="style1">
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+            </tr>
+        </table>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

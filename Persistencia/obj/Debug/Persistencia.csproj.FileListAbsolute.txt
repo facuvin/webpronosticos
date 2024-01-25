@@ -1,0 +1,7 @@
+C:\Users\Facu Viñales\documents\visual studio 2010\Projects\ProyectoFinal\Persistencia\obj\Debug\Persistencia.csprojResolveAssemblyReference.cache
+C:\Users\Facu Viñales\documents\visual studio 2010\Projects\ProyectoFinal\Persistencia\bin\Debug\Persistencia.dll
+C:\Users\Facu Viñales\documents\visual studio 2010\Projects\ProyectoFinal\Persistencia\bin\Debug\Persistencia.pdb
+C:\Users\Facu Viñales\documents\visual studio 2010\Projects\ProyectoFinal\Persistencia\bin\Debug\EnidadesCompartidas.dll
+C:\Users\Facu Viñales\documents\visual studio 2010\Projects\ProyectoFinal\Persistencia\bin\Debug\EnidadesCompartidas.pdb
+C:\Users\Facu Viñales\documents\visual studio 2010\Projects\ProyectoFinal\Persistencia\obj\Debug\Persistencia.dll
+C:\Users\Facu Viñales\documents\visual studio 2010\Projects\ProyectoFinal\Persistencia\obj\Debug\Persistencia.pdb
